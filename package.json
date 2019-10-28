@@ -1,0 +1,28 @@
+{
+  "name": "obsidium-postit",
+  "version": "1.0.0",
+  "description": "Microserviço para posts e comentarios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rodolfopeixoto/obsidium-postit.git"
+  },
+  "keywords": [
+    "obsidium",
+    "não",
+    "ao",
+    "assedio"
+  ],
+  "author": "Amanda Gregório,  Pedro Rodrigues e Rodolfo Peixoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodolfopeixoto/obsidium-postit/issues"
+  },
+  "homepage": "https://github.com/rodolfopeixoto/obsidium-postit#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
