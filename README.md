@@ -1,19 +1,23 @@
 ## Microserviço PostIt
 
-### Install
+# Gateway API for obsidium app
 
-You need `yarn`.
+Importante configurar o `.env`
 
-```
- yarn
-```
-
-run server
- ```
-   yarn dev
- ```
 
  Rename `.env.example` to  `.env`.
 
  Create a account [Mongo Atlas](https://www.mongodb.com/cloud/atlas).
  Add variable environment in `.env`.
+
+* Importante clonar todos os microsserviços
+
+#### Docker com todos os microserviços
+
+[https://github.com/rodolfopeixoto/obsidium-docker-compose-nodejs](https://github.com/rodolfopeixoto/obsidium-docker-compose-nodejs)
+
+Efetuar os testes
+
+```
+http://localhost:3002/stories
+```
