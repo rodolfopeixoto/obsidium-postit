@@ -11,8 +11,10 @@ mongoose.connect(`mongodb+srv://${process.env.MONGO_ATLAS_USERNAME}:${process.en
   useUnifiedTopology: true,
 })
 
-app.use(cors());
+app.use(cors({
+  origin: `${process.env.API_GATEWAY_URL}`
+}));
 app.use(express.json());
 app.use(routes);
 
-app.listen(3333);
+app.listen(3002);
