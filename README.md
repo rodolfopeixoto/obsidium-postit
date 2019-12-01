@@ -1,6 +1,4 @@
-## Microserviço PostIt
-
-# Gateway API for obsidium app
+# Microserviço PostIt
 
 Importante configurar o `.env`
 
